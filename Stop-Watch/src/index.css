@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   display: flex;
   align-items: center;
@@ -57,3 +58,64 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+=======
+body {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(0 0% 99%);
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #ccc;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  margin-bottom: 24px;
+}
+
+.Start-button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Start-button:hover {
+  filter: brightness(0.9);
+}
+
+.Stop-button {
+  background-color: rgb(175, 46, 46);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Reset-button{
+  background-color: rgb(82, 82, 150);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+>>>>>>> 36018db3c4dcd2ad237d4f98377cb25561ef58db
